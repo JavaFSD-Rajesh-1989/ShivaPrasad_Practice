@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration form</title>
+    <link rel="stylesheet" href="First program.css">
+</head>
+
+<body>
+    <form action="backend.php">
+    <h1>STUDENTS DETAILS</h1>
+    <div>
+        Name: <input type="text" name="myName" id="name">
+    </div>
+    <br>
+    <div>
+        Roll number: <textarea name="myRoll" id="" cols="50" rows="1"></textarea>
+    </div>
+    <br>
+    <div>
+        Date of birth: <input type="date" value="myDate">
+    </div>
+    <br>
+    <div>
+        <label for="gender">Gender: Male</label>
+        <input type="radio" name="myGen" id="gender">
+        <label for="gender">Female</label>
+        <input type="radio" name="myGen" id="gender">
+    </div>
+    <br>
+    <div>
+        Email: <input type="email" name="myEmail" id="email">
+    </div>
+    <br>
+    <div>
+        <label for="fee">Did you paid the fee: yes</label>
+        <input type="radio" name="myFee" id="fee">
+        <label for="fee">no</label>
+        <input type="radio" name="myFee" id="fee">
+    </div>
+    <br>
+    <div>
+        <label for="sub">Which subjects are you interested in: M1</label>
+        <input type="checkbox" name="mySub" id="sub">
+        <label for="sub">M2</label>
+        <input type="checkbox" name="mySub" id="sub">
+    </div>
+    <br>
+    <div>
+        Your number : <input type="number" name="muNum" id="num">
+    </div>
+    <br>
+    <div>
+        <label for="favcol">Favourite Color</label>
+        <select name="myFav" id="favcol">
+            <option value="gr">Green</option>
+            <option value="re">Red</option>
+            <option value="ye">Yellow</option>
+        </select>
+    </div>
+    <br>
+    <div>
+        Any Suggestions: <br> <textarea name="mySugg" id="suggestions" cols="30" rows="10"></textarea>
+    </div>
+    <br>
+    <div>
+        <input type="submit" name="muSub" id="sub">
+
+        <input type="reset" name="myres" id="reset">
+    </div>
+    </form>
+    <hr>
+    <br>
+    <p>this is paragrph</p>
+    <p>this is also a paragraph</p>
+    <b style="border : 2px solid red">this is spam</b> <span>this is also a span</span>
+    <span style="border : solid green">heyy man</span>
+    <hr>
+    <!-- Ids and classes -->
+    <!-- p.redBg and then enter to get this,We can use many classes for single element -->
+    <p class="redBG blackBorder whiteIndex"></p>
+    <!-- p then # and redBg to assign Id.we can use only id once -->
+    <p id="redBg"></p>
+    <hr>
+    <h3>html entities</h3>
+    <p id="container">
+        this are html entities
+    </p>
+    <div style="border: 2px solid black">
+        <p>hey man &nbsp &nbsp &nbsp hi</p>
+        <p>pound can be written like this &pound;</p>
+    </div>
+    <article>
+        <h2>Today's highlights</h2>
+        <p>First story</p>
+        <aside>
+            <p>Second story</p>
+            <p>Third story</p>
+        </aside>
+        <h1>hello</h1>
+        <center>this is hello </center>
+        <footer>
+            <font size="10" Color="orange">Shiva prasad</font>
+        </footer>
+    </article>
+    <header>
+        <h1>semantics</h1>
+    </header>
+</body>
+
+</html>
